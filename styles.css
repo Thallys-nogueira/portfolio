@@ -63,6 +63,24 @@ iframe {
     margin-bottom: 20px; /* Adiciona margem inferior para separar os iframes */
 }
 
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.project p {
+    display: none;
+    margin-top: 10px;
+}
+
+.project iframe {
+    display: none;
+    margin-top: 10px;
+}
+
 /* Estilos Responsivos */
 @media (max-width: 768px) {
     .container {
