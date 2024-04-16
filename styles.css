@@ -1,0 +1,62 @@
+/* Estilos para as Seções */
+section {
+    padding: 50px 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos para os Títulos */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Estilos para os Projetos */
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilos para os Artigos Publicados */
+.artigos_publicados {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: justify; /* Justificar o texto */
+}
+
+/* Estilos para os Cursos Realizados */
+.cursos_realizados {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.list-item {
+    list-style-type: none; /* Remover os marcadores de lista padrão */
+    padding: 5px 0; /* Espaçamento entre os itens da lista */
+}
+
+/* Estilo personalizado */
+.profile-img {
+    
+    height: auto; /* Altura automática para manter a proporção */
+    margin-right: 0px; /* Espaçamento entre a imagem e o texto */
+    border-radius: 50%; /* Define a borda como circular */
+    overflow: hidden; /* Garante que a imagem seja cortada corretamente para o formato circular */
+}
+
+.contact-icons a {
+    color: green; /* Cor dos ícones de contato */
+    font-size: 24px; /* Tamanho dos ícones */
+    margin-right: 10px; /* Espaçamento entre os ícones */
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
