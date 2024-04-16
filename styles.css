@@ -54,6 +54,15 @@ h1, h2, h3 {
     margin-right: 10px; /* Espaçamento entre os ícones */
 }
 
+iframe {
+    border: none; /* Remove a borda padrão do iframe */
+    width: 100%; /* Define a largura do iframe para ocupar todo o espaço disponível */
+    height: 500px; /* Define uma altura fixa para o iframe (você pode ajustar conforme necessário) */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    margin-bottom: 20px; /* Adiciona margem inferior para separar os iframes */
+}
+
 /* Estilos Responsivos */
 @media (max-width: 768px) {
     .container {
