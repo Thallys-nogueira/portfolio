@@ -12,12 +12,14 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
 </head>
 
 <body>
     <!-- Barra de Navegação -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
-        <a class="navbar-brand" href="#about"><img src="img/logo_thallys_nogueira.png" width="30" height="30" class="d-inline-block align-top" alt=""> Thallys Nogueira</a>
+        <a class="navbar-brand" href="#about"><img src="img/logo_thallys_nogueira.png" width="30" height="30"
+                class="d-inline-block align-top" alt=""> Thallys Nogueira</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -46,57 +48,91 @@
     <!-- Seção de Apresentação -->
     <section id="about">
         <div class="container">
-            <div class="row">
+            <div class="row secoes_index">
                 <!-- Coluna da Imagem -->
                 <div class="col-md-3">
                     <img class="img-fluid profile-img" src="img/thallys_nogueira.jpeg" alt="Foto de perfil">
                 </div>
                 <!-- Coluna dos Textos -->
                 <div class="col-md-9 text-container">
-                    <h3>Olá, eu sou Thallys Nogueira</h3>
-                    <p>É um prazer receber sua visita aqui em meu portfólio. Aqui contarei e mostrarei um pouco sobre a
-                        minha jornada. Meu caminho acadêmico e profissional é uma combinação de aprendizado e desafios.
-                    </p>
-                    <ul>
-                        <p>Sou:</p>
-                        <li class="list-item">🎓 Bacharel em Ciências Exatas pela UFJF (2018)</li>
-                        <li class="list-item">👨‍💻 Engenheiro Computacional pela UFJF (2020)</li>
-                        <li class="list-item">🎓 Mestre em Modelagem Computacional pela UFJF (2021)</li>
-                        <li class="list-item">🎓 Concluindo o último ano do Doutorado em Modelagem Computacional na UFJF
-                            (2021-2025)</li>
-                    </ul>
+                    <h5>
+                        <p id="resultado_idade"></p> Seja bem-vindo(a) e sinta-se à vontade para conhecer mais sobre mim
+                        e meu trabalho.
+                    </h5>
                 </div>
             </div>
+            <h3>Em que sou formado e onde?</h3>
+            <div class="row secoes_index">
+                <div id="espaco_div"></div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <p class="cards_timeline">2018</p>
+                        <div id="espaco_div"></div>
+                        <p class="p_card_interno">Bacharel em Ciências Exatas pela UFJF </p>
+                    </div><!-- /.col-lg-4 -->
+
+                    <div class="col-lg-3">
+                        <p class="cards_timeline">2020</p>
+                        <div id="espaco_div"></div>
+                        <p class="p_card_interno">Engenheiro Computacional pela UFJF</p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-3">
+
+                        <p class="cards_timeline">2021</p>
+                        <div id="espaco_div"></div>
+                        <p class="p_card_interno">Mestre em Modelagem Computacional pela UFJF</p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-3">
+
+                        <p class="cards_timeline">2021-2025</p>
+                        <div id="espaco_div"></div>
+                        <p class="p_card_interno">Concluindo o último ano do Doutorado em Modelagem Computacional na
+                            UFJF</p>
+                    </div><!-- /.col-lg-4 -->
+                </div>
+            </div>
+
             <div id="espaco_div"></div>
-            <div class="col-md-12 text-container text-justify">
-                <h3>O que faço atualmente?</h3>
-                <p>Atualmente, participo do Programa de Mestrado e Doutorado em Inovação MAI/DAI fomentado pelo
-                    Conselho Nacional de Desenvolvimento Científico e Tecnológico - CNPQ. Este programa visa
-                    fortalecer a pesquisa, empreendedorismo e inovação em Instituições Científicas, Tecnológicas e
-                    de Inovação (ICTs), envolvendo estudantes de graduação e pós-graduação em projetos alinhados aos
-                    interesses do setor empresarial, por meio de parcerias com empresas.</p>
-                <p>Nessa trajetória, colaboro ativamente em um projeto junto à Empresa Brasileira de Pesquisa
-                    Agropecuária - EMBRAPA Gado de Leite de Juiz de Fora, em que minha dedicação está centrada no
-                    desenvolvimento do projeto <a href="https://observatoriodoconsumidor.cnpgl.embrapa.br/"
-                        target="_blank">"Observatório do Consumidor"</a>. O Observatório do Consumidor é
-                    alimentado por dados das redes sociais, e minha função é decifrar o perfil do consumidor e
-                    entender os hábitos de consumo dos derivados lácteos no Brasil.</p>
-                <p>Para tornar isso possível, emprego técnicas avançadas como mineração de dados, processamento de
-                    linguagem natural, inteligência artificial, e uma variedade de outros processamentos para
-                    desvendar insights valiosos nesse universo de informações. 🛰️💡</p>
-                <h3>Áreas de expertise</h3>
-                <p>Minhas áreas de expertise abrangem Ciência da Computação, Engenharia Computacional e Modelagem
-                    Computacional, com foco especial em Inteligência Artificial, IA Generativa, Aprendizado de Máquina,
-                    Mineração
-                    de Dados, Inteligência Computacional, Banco de Dados, Análise de Dados, Empreendedorismo e
-                    Inovação. 💻✨</p>
-                <p>Estou aqui com o propósito de compartilhar aprendizado, evoluir e me conectar com profissionais no
-                    fascinante universo da tecnologia. Estou ativamente em busca de oportunidades e desafios nas áreas
-                    de Ciência de Dados, Engenharia de Dados ou Análise de Dados. </p>
-                <p>Se você leu até aqui, muito obrigado! Estou aberto a insights, parcerias ou simplesmente um bom papo
-                    sobre o futuro da computação.
-                    Estou à disposição para explorar novas oportunidades e contribuir de maneira significativa!🤖💬🚀
-                </p>
+            <h3>O que faço atualmente?</h3>
+            <div class="row secoes_index">
+                <div class="col-md-12 text-container text-justify">
+                    <p>Atualmente, participo do Programa de Mestrado e Doutorado em Inovação MAI/DAI fomentado pelo
+                        Conselho Nacional de Desenvolvimento Científico e Tecnológico - CNPQ. Este programa visa
+                        fortalecer a pesquisa, empreendedorismo e inovação em Instituições Científicas, Tecnológicas e
+                        de Inovação (ICTs), envolvendo estudantes de graduação e pós-graduação em projetos alinhados aos
+                        interesses do setor empresarial, por meio de parcerias com empresas.</p>
+                    <p>Nessa trajetória, colaboro ativamente em um projeto junto à Empresa Brasileira de Pesquisa
+                        Agropecuária - EMBRAPA Gado de Leite de Juiz de Fora, em que minha dedicação está centrada no
+                        desenvolvimento do projeto <a href="https://observatoriodoconsumidor.cnpgl.embrapa.br/"
+                            target="_blank">"Observatório do Consumidor"</a>. O Observatório do Consumidor é
+                        alimentado por dados das redes sociais, e minha função é decifrar o perfil do consumidor e
+                        entender os hábitos de consumo dos derivados lácteos no Brasil.</p>
+                    <p>Para tornar isso possível, emprego técnicas avançadas como mineração de dados, processamento de
+                        linguagem natural, inteligência artificial, e uma variedade de outros processamentos para
+                        desvendar insights valiosos nesse universo de informações. 🛰️💡</p>
+                </div>
+            </div>
+            <h3>Áreas de expertise</h3>
+            <div class="row secoes_index">
+                <div class="col-md-12 text-container text-justify">
+                    <p>Minhas áreas de expertise abrangem Ciência da Computação, Engenharia Computacional e Modelagem
+                        Computacional, com foco especial em Inteligência Artificial, IA Generativa, Aprendizado de
+                        Máquina,
+                        Mineração
+                        de Dados, Inteligência Computacional, Banco de Dados, Análise de Dados, Empreendedorismo e
+                        Inovação. 💻✨</p>
+                    <p>Estou aqui com o propósito de compartilhar aprendizado, evoluir e me conectar com profissionais
+                        no
+                        fascinante universo da tecnologia. Estou ativamente em busca de oportunidades e desafios nas
+                        áreas
+                        de Ciência de Dados, Engenharia de Dados ou Análise de Dados. </p>
+                    <p>Se você leu até aqui, muito obrigado! Estou aberto a insights, parcerias ou simplesmente um bom
+                        papo
+                        sobre o futuro da computação.
+                        Estou à disposição para explorar novas oportunidades e contribuir de maneira
+                        significativa!🤖💬🚀
+                    </p>
+                </div>
             </div>
         </div>
 
