@@ -26,6 +26,10 @@ h1, h2, h3 {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     padding: 10px;
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    text-align: justify; /* Justificar o texto */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    background-color: #f9f9f9;
 }
 
 /* Estilos para os Artigos Publicados */
@@ -34,6 +38,9 @@ h1, h2, h3 {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: justify; /* Justificar o texto */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    background-color: #f9f9f9;
 }
 
 /* Estilos para os Seções da página index */
@@ -53,6 +60,10 @@ h1, h2, h3 {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     padding: 10px;
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    text-align: justify; /* Justificar o texto */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    background-color: #f9f9f9;
 }
 
 .list-item {
@@ -62,7 +73,7 @@ h1, h2, h3 {
 
 /* Estilo personalizado */
 .profile-img {
-    
+    width: 90%; /* Define a largura máxima como 100% */
     height: auto; /* Altura automática para manter a proporção */
     margin-right: 0px; /* Espaçamento entre a imagem e o texto */
     border-radius: 50%; /* Define a borda como circular */
