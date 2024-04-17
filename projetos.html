@@ -18,8 +18,9 @@
 <body>
 
     <!-- Barra de Navegação -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Thallys Nogueira</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html"><img src="img/logo_thallys_nogueira.png" width="30" height="30"
+                class="d-inline-block align-top" alt=""> Thallys Nogueira</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,22 +49,71 @@
     <!-- Seção de Projetos -->
     <section id="projects">
         <div class="container">
-            <h2>Meus Projetos de Ciência de Dados</h2>
+            <h3>Projetos desenvolvidos</h3>
+
+            <div id="areas_projetos" class="badge badge-success">Ciência de Dados</div>
 
             <div class="project" id="project1">
-                <h3>Projeto 1: Análise de Dados</h3>
-                <button onclick="toggleParagraph('p1')">Mostrar/Esconder Projeto</button>
-                <iframe id="p1" src="projetos/analise_dados.html" width="100%" height="600px"></iframe>
-                <p id="p1">Descrição do projeto e principais resultados.</p>
+                <h4>Projeto 1: Análise de Dados</h4>
+                <button class="btn btn-success btn-sm" onclick="toggleParagraph('p1')">
+                    <i id="icon_p1" class="fa fa-eye" aria-hidden="true"></i> Visualizar
+                </button>
+                <iframe id="p1_iframe" src="projetos/analise_dados.html" width="100%" height="600px"></iframe>
+                <p id="p1_paragraph" style="display: none;">Descrição do projeto e principais resultados.</p>
             </div>
 
+
             <div class="project" id="project2">
-                <h3>Projeto 2: Outro Projeto</h3>
-                <button onclick="toggleParagraph('p2')">Mostrar/Esconder Projeto</button>
-                <iframe id="p2" src="projetos/analise_dados.html" width="100%" height="600px"></iframe>
-                <p id="p2">Descrição do projeto e principais resultados.</p>
+                <h4>Projeto 2: Análise de Dados</h4>
+                <button class="btn btn-success btn-sm" onclick="toggleParagraph('p2')">
+                    <i id="icon_p2" class="fa fa-eye" aria-hidden="true"></i> Visualizar
+                </button>
+                <iframe id="p2_iframe" src="projetos/analise_dados.html" width="100%" height="600px"></iframe>
+                <p id="p2_paragraph" style="display: none;">Descrição do projeto e principais resultados.</p>
+            </div>
+
+
+            <div id="areas_projetos" class="badge badge-info">Banco de Dados</div>
+
+            <div class="project" id="project3">
+                <h4>Projeto 1: Banco de Dados</h4>
+                <button class="btn btn-info btn-sm" onclick="toggleParagraph('p3')">
+                    <i id="icon_p3" class="fa fa-eye" aria-hidden="true"></i> Visualizar
+                </button>
+                <iframe id="p3_iframe" src="projetos/analise_dados.html" width="100%" height="600px"></iframe>
+                <p id="p3_paragraph" style="display: none;">Descrição do projeto e principais resultados.</p>
+            </div>
+
+            <div class="project" id="project4">
+                <h4>Projeto 2: Banco de Dados</h4>
+                <button class="btn btn-info btn-sm" onclick="toggleParagraph('p4')">
+                    <i id="icon_p4" class="fa fa-eye" aria-hidden="true"></i> Visualizar
+                </button>
+                <iframe id="p4_iframe" src="projetos/analise_dados.html" width="100%" height="600px"></iframe>
+                <p id="p4_paragraph" style="display: none;">Descrição do projeto e principais resultados.</p>
+            </div>
+
+            <div id="areas_projetos" class="badge badge-warning">Machine Learning</div>
+
+            <div class="project" id="project5">
+                <h4>Projeto 1: Machine Learning</h4>
+                <button class="btn btn-warning btn-sm" onclick="toggleParagraph('p5')">
+                    <i id="icon_p5" class="fa fa-eye" aria-hidden="true"></i> Visualizar
+                </button>
+                <iframe id="p5_iframe" src="projetos/analise_dados.html" width="100%" height="600px"></iframe>
+                <p id="p5_paragraph" style="display: none;">Descrição do projeto e principais resultados.</p>
+            </div>
+
+            <div class="project" id="project6">
+                <h4>Projeto 2: Machine Learning</h4>
+                <button class="btn btn-warning btn-sm" onclick="toggleParagraph('p6')">
+                    <i id="icon_p6" class="fa fa-eye" aria-hidden="true"></i> Visualizar
+                </button>
+                <iframe id="p6_iframe" src="projetos/analise_dados.html" width="100%" height="600px"></iframe>
+                <p id="p6_paragraph" style="display: none;">Descrição do projeto e principais resultados.</p>
             </div>
         </div>
+
         <!-- Seção de Contato -->
         <section id="contact">
             <div class="container">
